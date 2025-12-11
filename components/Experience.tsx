@@ -36,7 +36,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     title: 'Research Engineer',
-    company: 'C.H.U.M. Research Hospital',
+    company: 'C.H.U.M. Hospital',
     companyUrl: 'https://www.chumontreal.qc.ca',
     date: 'May 2019 - September 2019',
     description:
