@@ -53,16 +53,28 @@ export default function Home() {
   }
 
   return (
-    <div className="relative">
-      <Sidebar activeSection={activeSection} onNavigate={handleNavigate} />
+    <div className="flex flex-col lg:flex-row">
+      <Sidebar
+        activeSection={activeSection}
+        onNavigate={handleNavigate}
+      />
       <main
         ref={mainContentRef}
-        className="ml-[50%] w-1/2 pr-16 my-28 space-y-28"
+        className="w-full lg:w-1/2 lg:ml-[50%] px-8 lg:pr-16 my-10 space-y-10 lg:my-0 lg:space-y-28"
       >
+        <div className="lg:hidden">
+          <h2 className="font-bold text-text-primary ml-6 mb-4">ABOUT</h2>
+        </div>
         <About />
+        <div className="lg:hidden">
+          <h2 className="font-bold text-text-primary ml-6 -mb-4">EXPERIENCE</h2>
+        </div>
         <Experience />
+        <div className="lg:hidden">
+          <h2 className="font-bold text-text-primary ml-6 mb-4">PROJECTS</h2>
+        </div>
         <Projects />
-        <div className="mt-28 ml-6 mr-48 text-left text-text-secondary text-sm">
+        <div className="mt-28 mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 text-left text-text-secondary text-sm">
           This website was created in Next.js using Tailwind CSS and deployed to Vercel by me, Harry McKinney.
         </div>
       </main>
