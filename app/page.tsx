@@ -60,7 +60,7 @@ export default function Home() {
       />
       <main
         ref={mainContentRef}
-        className="w-full lg:w-1/2 lg:ml-[50%] px-8 lg:pr-16 my-10 space-y-10 lg:my-0 lg:space-y-28"
+        className="w-full lg:w-1/2 lg:ml-[50%] px-8 lg:pr-16 my-10 space-y-10 lg:mb-12 lg:mt-0 lg:space-y-28"
       >
         <div className="lg:hidden">
           <h2 className="font-bold text-text-primary ml-6 mb-4">ABOUT</h2>
