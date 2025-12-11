@@ -37,7 +37,7 @@ export default function Sidebar({
             Harry McKinney
           </h1>
           <p className="text-[0.95rem] text-text-secondary my-2 lg:my-8 leading-relaxed">
-            I like to solve hard problems and build lean software.
+            I like to solve hard problems and build software.
           </p>
 
           <nav className="hidden lg:flex flex-col gap-2 pt-4">
